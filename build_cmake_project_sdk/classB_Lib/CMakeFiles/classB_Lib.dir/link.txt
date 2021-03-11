@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -shared -Wl,-soname,libclassB_Lib.so -o /home/kan/CMake_Test/bin_linux/libclassB_Lib.so CMakeFiles/classB_Lib.dir/src/classB.cpp.o 

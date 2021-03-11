@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main_binary.dir/main.cpp.o CMakeFiles/main_binary.dir/hello.cpp.o -o /home/kan/CMake_Test/bin_linux/main_binary  -Wl,-rpath,/home/kan/CMake_Test/cmake_project/../bin_linux /home/kan/CMake_Test/cmake_project/..//bin_linux/libclassB_Lib.so /home/kan/CMake_Test/cmake_project/..//bin_linux/libclassA_Lib.a 

@@ -1,0 +1,7 @@
+#include <iostream>
+#include "classA.h"
+
+void A::print()
+{
+    std::cout << "ClassA_Print" << std::endl;
+}
