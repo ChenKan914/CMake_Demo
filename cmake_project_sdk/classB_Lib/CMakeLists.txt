@@ -8,7 +8,7 @@ if(CMAKE_BUILD_TYPE MATCHES "Debug")
 elseif(CMAKE_BUILD_TYPE MATCHES "Release")
     set(BUILD_TYPE "Release")
 elseif(CMAKE_BUILD_TYPE MATCHES "")
-    set(BUILD_TYPE "bin_linux")
+    set(BUILD_TYPE "")
 endif()
 
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/../../${BUILD_TYPE})
