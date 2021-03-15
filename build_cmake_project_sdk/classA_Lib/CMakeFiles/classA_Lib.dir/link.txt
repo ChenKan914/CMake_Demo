@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/kan/CMake_Test/bin_linux/libclassA_Lib.a CMakeFiles/classA_Lib.dir/src/classA.cpp.o
-/usr/bin/ranlib /home/kan/CMake_Test/bin_linux/libclassA_Lib.a

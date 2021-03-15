@@ -1,8 +1,0 @@
-/home/kan/CMake_Test/build_cmake_project_sdk/CMakeFiles/rebuild_cache.dir
-/home/kan/CMake_Test/build_cmake_project_sdk/CMakeFiles/edit_cache.dir
-/home/kan/CMake_Test/build_cmake_project_sdk/classA_Lib/CMakeFiles/edit_cache.dir
-/home/kan/CMake_Test/build_cmake_project_sdk/classA_Lib/CMakeFiles/rebuild_cache.dir
-/home/kan/CMake_Test/build_cmake_project_sdk/classA_Lib/CMakeFiles/classA_Lib.dir
-/home/kan/CMake_Test/build_cmake_project_sdk/classB_Lib/CMakeFiles/rebuild_cache.dir
-/home/kan/CMake_Test/build_cmake_project_sdk/classB_Lib/CMakeFiles/edit_cache.dir
-/home/kan/CMake_Test/build_cmake_project_sdk/classB_Lib/CMakeFiles/classB_Lib.dir

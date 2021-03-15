@@ -1,4 +1,3 @@
-#include <iostream>
 #include <classB.h>
 
 void B::print()

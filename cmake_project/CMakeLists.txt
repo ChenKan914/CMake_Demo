@@ -1,11 +1,21 @@
+#cmake_project
 cmake_minimum_required(VERSION 3.5)
 
 project (main_binary)
 
 set(PROJECT_DIR "${CMAKE_SOURCE_DIR}/../")
 set(PROJECT_SDK_DIR "${PROJECT_DIR}/cmake_project_sdk")
-set(PROJECT_LIB_DIR "${PROJECT_DIR}/bin_linux")
-set(EXECUTABLE_OUTPUT_PATH "${PROJECT_DIR}/bin_linux/")
+
+if(CMAKE_BUILD_TYPE MATCHES "Debug")
+    set(BUILD_TYPE "Debug")
+elseif(CMAKE_BUILD_TYPE MATCHES "Release")
+    set(BUILD_TYPE "Release")
+elseif(CMAKE_BUILD_TYPE MATCHES "")
+    set(BUILD_TYPE "bin_linux")
+endif()
+
+set(PROJECT_LIB_DIR "${PROJECT_DIR}/${BUILD_TYPE}")
+set(EXECUTABLE_OUTPUT_PATH "${PROJECT_DIR}/${BUILD_TYPE}")
 
 set(SOURCES
     main.cpp

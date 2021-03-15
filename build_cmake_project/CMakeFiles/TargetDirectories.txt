@@ -1,3 +1,0 @@
-/home/kan/CMake_Test/build_cmake_project/CMakeFiles/edit_cache.dir
-/home/kan/CMake_Test/build_cmake_project/CMakeFiles/rebuild_cache.dir
-/home/kan/CMake_Test/build_cmake_project/CMakeFiles/main_binary.dir
