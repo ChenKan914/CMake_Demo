@@ -1,4 +1,4 @@
-#cmake_project
+﻿#cmake_project
 cmake_minimum_required(VERSION 3.5)
 
 project (main_binary)
@@ -23,7 +23,9 @@ endif()
 
 set(PROJECT_DIR "${CMAKE_SOURCE_DIR}/../")
 set(PROJECT_SDK_DIR "${PROJECT_DIR}/cmake_project_sdk")
-set(PROJECT_LIB_DIR "${PROJECT_DIR}/${BUILD_TYPE}")
+#set(PROJECT_LIB_DIR "${PROJECT_DIR}/Debug")       		#Window下Debug模式
+set(PROJECT_LIB_DIR "${PROJECT_DIR}/Release")     		#Window下Release模式
+#set(PROJECT_LIB_DIR "${PROJECT_DIR}/${BUILD_TYPE}")	#Linux自动识别
 set(EXECUTABLE_OUTPUT_PATH "${PROJECT_DIR}/${BUILD_TYPE}")
 
 set(SOURCES
